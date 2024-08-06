@@ -1,0 +1,53 @@
+.contact {
+    background-color: #B9D9EB;
+    padding: 50px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: left;
+}
+
+.phoneEmail {
+    padding: 20px 0;
+    color: #034694;
+    font-size: 20px;
+}
+
+.phoneEmail img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.mecontacter {
+    color: #034694;
+}
+
+.email-illu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.email-illu img {
+   height: 350px;
+   width: auto;
+}
+@media (max-width: 767px) {
+    .email-illu {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .email-illu img{
+        height: 200px;
+        width: auto;
+    }
+}

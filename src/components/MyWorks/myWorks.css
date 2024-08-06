@@ -1,0 +1,104 @@
+.myWorks {
+    background-color: #FFE9EC;
+    margin-bottom: 50px;
+    
+}
+
+.myWorks h1 {
+    text-align: center;
+    color: #034694;
+   
+}
+
+.cards-wrapper {
+    margin-bottom: 0;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card-container {
+    background: #034694 ;
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(40% - 30px);
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0px 0px 15px -5px;
+    transition: transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card-container:hover {
+    transform: scale(1.1);
+}
+
+.image-container {
+    height: 320px;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.card-title {
+    color: #fff;
+    text-align: center;
+    transition: opacity 0.3s ease;
+}
+
+.card-body {
+    padding: 10px;
+    color: #fff;
+    background-color: #023059;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: opacity 0.3s ease;
+}
+
+.card-container .card-body.visible {
+    opacity: 1;
+}
+
+.card-container .image-container.hidden,
+.card-container .card-title.hidden {
+    opacity: 0;
+}
+
+/* Tablet responsiveness - from 768px to 1024px */
+@media (max-width: 1024px) {
+    .card-container {
+        font-size: 12px;
+        width: 250px;
+        height: 250px; 
+    }
+
+    .image-container {
+        height: 300px; 
+    }
+}
+
+/* Phone responsiveness - less than 768px */
+@media (max-width: 767px) {
+    .card-container {
+        flex-basis: 100%; 
+        height: 300px; 
+    }
+
+    .image-container {
+        height: 250px; 
+    }
+}
