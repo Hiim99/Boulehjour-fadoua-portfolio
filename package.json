@@ -2,7 +2,7 @@
   "name": "my-cv-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Hiim99.github.io/Portfolio-boulehjour-fadoua",
+  "homepage": "https://Hiim99.github.io/Boulehjour-fadoua-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
