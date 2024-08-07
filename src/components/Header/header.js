@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+import myCV from './cv-fadoua-boulehjour.pdf';
 
 function Header() {
   const handleScrollToMyWorks = () => {
@@ -34,9 +35,9 @@ function Header() {
             <li onClick={handleScrollToMyWorks}>Projets</li>
             <li onClick={handleScrollToContact}>Contact</li>
             <li>
-              <a className='cv' href="/cv-fadoua-boulehjour.pdf" download>
-                Télécharger mon CV
-              </a>
+            <a className='cv' href={myCV} download="cv-fadoua-boulehjour.pdf">
+              Télécharger mon CV
+            </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/fadoua-boulehjour-0ba704260/" target="_blank" rel="noopener noreferrer">
