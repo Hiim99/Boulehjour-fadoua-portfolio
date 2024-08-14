@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Boulehjour-fadoua-portfolio/static/css/main.6e8e7c9f.css",
-    "main.js": "/Boulehjour-fadoua-portfolio/static/js/main.57033e77.js",
+    "main.css": "/Boulehjour-fadoua-portfolio/static/css/main.cc5492ed.css",
+    "main.js": "/Boulehjour-fadoua-portfolio/static/js/main.aa3e2ba0.js",
     "static/js/453.47a9dc39.chunk.js": "/Boulehjour-fadoua-portfolio/static/js/453.47a9dc39.chunk.js",
     "static/media/Capture1.PNG": "/Boulehjour-fadoua-portfolio/static/media/Capture1.5a20c8af94765891a50d.PNG",
     "static/media/Capture2.PNG": "/Boulehjour-fadoua-portfolio/static/media/Capture2.f524e1387fd928a28e32.PNG",
@@ -14,12 +14,12 @@
     "static/media/home.png": "/Boulehjour-fadoua-portfolio/static/media/home.e298d89bcb32ba287b43.png",
     "static/media/logo-linkedin.webp": "/Boulehjour-fadoua-portfolio/static/media/logo-linkedin.fe4dbe4730a4a1fd82cf.webp",
     "index.html": "/Boulehjour-fadoua-portfolio/index.html",
-    "main.6e8e7c9f.css.map": "/Boulehjour-fadoua-portfolio/static/css/main.6e8e7c9f.css.map",
-    "main.57033e77.js.map": "/Boulehjour-fadoua-portfolio/static/js/main.57033e77.js.map",
+    "main.cc5492ed.css.map": "/Boulehjour-fadoua-portfolio/static/css/main.cc5492ed.css.map",
+    "main.aa3e2ba0.js.map": "/Boulehjour-fadoua-portfolio/static/js/main.aa3e2ba0.js.map",
     "453.47a9dc39.chunk.js.map": "/Boulehjour-fadoua-portfolio/static/js/453.47a9dc39.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e8e7c9f.css",
-    "static/js/main.57033e77.js"
+    "static/css/main.cc5492ed.css",
+    "static/js/main.aa3e2ba0.js"
   ]
 }
